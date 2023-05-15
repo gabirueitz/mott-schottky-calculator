@@ -1,0 +1,97 @@
+:root {
+    --color1: #FAEBD7;
+    --color2: #c27e00;
+    --color3: #CD5C5C;
+}
+
+body {
+    background-color: var(--color1);
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+#container {
+    padding-left: 20px;
+    height: 680px;
+    width: 800px;
+    margin: 30px auto;
+    background-color: white;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 20px;
+}
+
+.title {
+    color: var(--color2);
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-variant: small-caps;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.formMS {
+    text-align: center;
+}
+
+.text1 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.text2 {
+    font-size: 16px;
+}
+
+.textConstant {
+    font-size: 14px;
+    text-align: center;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.formInput1 {
+    background: white;
+    width: 80px;
+    padding: 5px 5px 8px 8px;
+}
+
+.formInput1:focus {
+    border: 2px solid var(--color2);
+    outline: none;
+}
+
+.formInput2 {
+    background: white;
+    width: 40px;
+    padding: 5px 5px 8px 8px;
+}
+
+.formInput2:focus {
+    border: 2px solid var(--color2);
+    outline: none;
+}
+
+.formSubmit {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    display: block;
+    margin: 20px auto;
+    background-color: var(--color2);
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+}
+
+.resultText {
+    font-size: 22px;
+    margin-top: 5px;
+    text-align: center;
+    padding-top: 20px;
+}
